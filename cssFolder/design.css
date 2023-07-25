@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+	font-family: "Roboto";
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.dice {
+	text-align: center;
+	display: inline-block;
+}
+
+body {
+	background-color: #393e46;
+}
+
+h1 {
+	margin: 30px;
+
+	text-shadow: 5px 0 #232931;
+	font-size: 8rem;
+	color: #4ecca3;
+}
+
+p {
+	font-size: 2rem;
+	color: #4ecca3;
+}
+
+img {
+	width: 80%;
+}
+
+footer {
+	margin-top: 5%;
+	color: #eeeeee;
+	text-align: center;
+}
