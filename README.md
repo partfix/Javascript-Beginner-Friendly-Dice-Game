@@ -1,2 +1,4 @@
 # DICE-game 🎲
-A simple dice game 
+
+<hr>
+<i>A simple javascript game</i>
