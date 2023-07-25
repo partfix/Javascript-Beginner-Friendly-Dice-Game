@@ -16,28 +16,36 @@
 }
 
 body {
-	background-color: #393e46;
+	background-color: #1e2022;
 }
 
 h1 {
 	margin: 30px;
-
 	text-shadow: 5px 0 #232931;
-	font-size: 8rem;
-	color: #4ecca3;
+	font-size: 4.2rem;
+	flex-wrap: nowrap;
+	color: #e1e4e6;
 }
 
 p {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	color: #4ecca3;
 }
 
 img {
-	width: 80%;
+	width: 60%;
 }
 
 footer {
 	margin-top: 5%;
-	color: #eeeeee;
+	color: #f0f5f9;
 	text-align: center;
+}
+
+.confetti {
+	position: absolute;
+	right: 0;
+	left: 40rem;
+	height: 20rem;
+	width: 20rem;
 }
