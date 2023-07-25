@@ -1,2 +1,2 @@
-# DICE-game
-A JavaScript Dice Game  🎲
+# DICE-game 🎲
+A JavaScript Dice Game  
