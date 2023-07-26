@@ -4,11 +4,11 @@ function randomNumber() {
 
 function gameFunction() {
 	let holder = randomNumber();
-	let randomImages = "pictures/dice" + holder + ".png";
+	let randomImages = "pictures/dice" + holder + ".png"; // pictures/dice.png
 	document.querySelectorAll("img")[0].setAttribute("src", randomImages);
 
 	let holder1 = randomNumber();
-	let randomImages1 = "pictures/dice" + holder1 + ".png";
+	let randomImages1 = "pictures/dice" + holder1 + ".png"; // pictures/dice.png
 	document.querySelectorAll("img")[1].setAttribute("src", randomImages1);
 
 	if (randomImages > randomImages1) {
