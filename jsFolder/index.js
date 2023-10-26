@@ -1,9 +1,5 @@
 function randomNumber() {
-	return {
-		randomNumber: function () {
-			return Math.floor(Math.random() * 6 + 1);
-		},
-	};
+	return Math.floor(Math.random() * 6 + 1); // this is random number from 1-6
 }
 
 function gameFunction() {
