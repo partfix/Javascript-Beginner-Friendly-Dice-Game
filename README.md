@@ -1,2 +1,3 @@
-# DICE-game 🎲
-<i>A simple javascript game</i>
+# javascript dice game 🎲
+
+- simple yet insigthful begginer project for begginer.
