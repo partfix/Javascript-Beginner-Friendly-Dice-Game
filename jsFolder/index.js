@@ -12,11 +12,11 @@ function gameFunction() {
 	document.querySelectorAll("img")[1].setAttribute("src", randomImages1); //select images from 1 - 6
 
 	if (randomImages > randomImages1) {
-		document.querySelector("h1").textContent = "Player 1 Wins!!!";
+		document.querySelector("h1").innerHTML = "Player 1 Wins!!!";
 	} else if (randomImages < randomImages1) {
-		document.querySelector("h1").textContent = "Player 2 Wins!!!";
+		document.querySelector("h1").innerHTML = "Player 2 Wins!!!";
 	} else {
-		document.querySelector("h1").textContent = "Draw!!!";
+		document.querySelector("h1").innerHTML = "Draw!!!";
 	}
 } 
 
